@@ -3,52 +3,117 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>vicecityvault6 clipper</title>
+<title>Privacy Policy · vicecityvault6 clipper</title>
 <meta name="description" content="vicecityvault6 clipper turns permitted gaming videos into credited vertical clips and posts owner-approved clips to the owner's own accounts.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <header class="site"><div class="site-inner">
-  <a class="brand" href="./">vicecityvault6 <span>clipper</span></a>
-  <nav aria-label="Site"><a href="" aria-current="page">Home</a><a href="terms/">Terms of Service</a><a href="privacy/">Privacy Policy</a></nav>
+  <a class="brand" href="../">vicecityvault6 <span>clipper</span></a>
+  <nav aria-label="Site"><a href="../">Home</a><a href="../terms/">Terms of Service</a><a href="../privacy/" aria-current="page">Privacy Policy</a></nav>
 </div></header>
 <main>
-  <p class="kicker">GTA 6 gaming clips</p>
-  <h1>vicecityvault6 clipper</h1>
-  <p class="lead">A personal desktop tool that turns gaming videos into short vertical clips, credits the original
-  creator, and posts the clips its owner approves to the owner's own TikTok, Instagram, Facebook and YouTube accounts.</p>
+<h1>Privacy Policy</h1>
+  <p class="meta">Effective 18 November 2026 · Last updated 18 November 2026</p>
 
   <ul class="facts">
-    <li><strong>Owner's accounts only</strong>Posts only to accounts the owner connects through each platform's official login.</li>
-    <li><strong>Every clip approved</strong>A person watches and approves each clip and caption before anything is posted.</li>
-    <li><strong>Creators credited</strong>Only videos from creators who gave permission, tagged on every post.</li>
+    <li><strong>Single-operator tool</strong>Used only by its operator to post to the operator's own accounts.</li>
+    <li><strong>Runs locally</strong>Login tokens and posting records stay on the operator's computer.</li>
+    <li><strong>Nothing sold or shared</strong>No advertising, analytics, data brokers or data resale.</li>
   </ul>
 
-  <h2>How it works</h2>
-  <ol class="steps">
-    <li><div><strong>Permission first.</strong> A creator gives permission to repost clips of their videos, on the condition that they are tagged and credited.</div></li>
-    <li><div><strong>Clips are found.</strong> The app finds the highlight moments in a video and makes 30-second vertical (9:16) clips with captions and an on-screen credit.</div></li>
-    <li><div><strong>The owner reviews.</strong> Each clip waits in a review queue. The owner watches it, checks the caption and creator tag, and approves or rejects it.</div></li>
-    <li><div><strong>Approved clips are posted.</strong> The app uploads approved clips through the platforms' official APIs, such as TikTok's Content Posting API, with the creator's handle for that platform in the caption.</div></li>
-  </ol>
+  <h2>1. Who we are</h2>
+  <p>vicecityvault6 clipper (the "App") is a personal software tool operated by the creator behind the
+  vicecityvault6 social media accounts (the "Operator", "we", "us"). The App turns gaming videos into short
+  vertical clips and, after the Operator reviews and approves each clip, posts it to social media accounts
+  that the Operator owns and has connected: TikTok, Instagram, Facebook and YouTube.</p>
+  <p>The App is not a public service. It has no sign-up and no user accounts, and other people cannot use it to
+  post to their own accounts.</p>
 
-  <h2>Platforms</h2>
-  <p>The app connects only through official sign-in: TikTok Login Kit, Meta (Facebook and Instagram) login, and
-  Google sign-in for YouTube. It asks only for the permissions needed to post, and the owner can disconnect at any
-  time from each platform's settings. Login tokens are stored only on the owner's computer.</p>
-
-  <h2>Policies</h2>
-  <p>Read how the app may be used and how it handles information.</p>
-  <div class="cta">
-    <a class="primary" href="terms/">Terms of Service</a>
-    <a href="privacy/">Privacy Policy</a>
+  <h2>2. Information the App handles</h2>
+  <h3>From connected platforms (the Operator's own accounts)</h3>
+  <p>When the Operator connects an account through the platform's official login (OAuth), the App receives:</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th scope="col">Platform</th><th scope="col">Information received</th><th scope="col">Why</th></tr></thead>
+    <tbody>
+      <tr><td>TikTok</td><td>Access and refresh tokens, granted permissions (scopes), open ID, display name, and posting settings returned by the Content Posting API (allowed privacy levels, maximum video length)</td><td>To upload approved clips to the Operator's TikTok account with valid settings</td></tr>
+      <tr><td>Instagram / Facebook (Meta)</td><td>Access tokens, Facebook Page ID and name, linked Instagram account ID and username, publishing quota</td><td>To publish approved Reels to the Operator's Page and Instagram account</td></tr>
+      <tr><td>YouTube (Google)</td><td>Access and refresh tokens, channel ID and name</td><td>To upload approved Shorts to the Operator's channel</td></tr>
+    </tbody>
+  </table>
   </div>
+  <p>The App does not request or read followers, messages, comments, likes, contacts, location, or any data
+  about viewers or other platform users.</p>
 
+  <h3>Created by the App</h3>
+  <ul>
+    <li>Video clips, captions and hashtags that the App generates for the Operator's review.</li>
+    <li>A local record of each post: platform, post ID, post link, time and status, used to prevent duplicate posts.</li>
+    <li>Local error logs, with tokens and secrets automatically removed.</li>
+  </ul>
+
+  <h3>About content creators</h3>
+  <p>The App only clips videos from creators who have given the Operator permission to repost their content.
+  For each creator it stores their public name, public YouTube channel and public social media handles (used to
+  tag and credit them in every post) and a note of the permission they gave. Social media handles are taken
+  only from links the creator publishes on their own YouTube channel, or supplied by the Operator.</p>
+
+  <h2>3. How information is used</h2>
+  <ul>
+    <li>To upload clips that the Operator has approved to the Operator's own connected accounts.</li>
+    <li>To credit and tag the original creator correctly on each platform.</li>
+    <li>To check posting status, avoid duplicate posts, and keep a history of what was posted.</li>
+  </ul>
+  <p>Information is not used for advertising, profiling, or training machine-learning models, and is not combined
+  with data from other sources.</p>
+
+  <h2>4. Storage and security</h2>
+  <p>All information is stored on the Operator's own computer. Tokens and app secrets are kept in files readable
+  only by the Operator's user account, are entered with hidden typing, and are removed from all logs and on-screen
+  output. Tokens are sent only to the platform that issued them, over HTTPS. The App runs no web server and has no
+  database in the cloud.</p>
+
+  <h2>5. Sharing</h2>
+  <p>We do not sell, rent or share personal information. Information is sent only to the platform it belongs to
+  (TikTok, Meta or Google) when the App calls that platform's official API to post a clip or check a post. Each
+  platform handles that information under its own privacy policy:
+  <a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a>,
+  <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>,
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>6. YouTube API Services</h2>
+  <p>The App uses YouTube API Services. By using the App's YouTube features you agree to the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Access granted to the App can be removed at any
+  time from <a href="https://myaccount.google.com/connections">Google account security settings</a>.</p>
+
+  <h2>7. Retention and deletion</h2>
+  <ul>
+    <li>Tokens are kept until the account is disconnected or the access expires, and are deleted when the Operator disconnects the account.</li>
+    <li>Posting records are kept so duplicate posts can be prevented, and can be deleted by the Operator at any time.</li>
+    <li>Clip files are deleted by the Operator after posting or rejection.</li>
+  </ul>
+  <p>You can revoke the App's access at any time: in TikTok's <em>Settings and privacy</em>, under the security and permissions section
+  (<em>Apps and services</em>); in Facebook under <em>Settings &amp; privacy → Settings → Business integrations</em>; and in your Google account under
+  <em>Third-party apps &amp; services</em>. A creator who wants their name, handles or clips removed, or wants to
+  withdraw permission, can contact us (section 10); we will stop using their content and delete their details.</p>
+
+  <h2>8. Children</h2>
+  <p>The App is not directed to children and is used only by its adult Operator. We do not knowingly handle
+  information from anyone under 13.</p>
+
+  <h2>9. Changes</h2>
+  <p>If this policy changes, we will update this page and the "Last updated" date above.</p>
+
+  <h2>10. Contact</h2>
+  <p>Questions, removal requests or permission withdrawals: send a direct message to
+  <a href="https://www.instagram.com/vicecityvault6/">@vicecityvault6 on Instagram</a>.</p>
   <footer>
-    vicecityvault6 clipper · <a href="terms/">Terms of Service</a> · <a href="privacy/">Privacy Policy</a> ·
+    vicecityvault6 clipper · <a href="../terms/">Terms of Service</a> · <a href="../privacy/">Privacy Policy</a> ·
     Contact: <a href="https://www.instagram.com/vicecityvault6/">@vicecityvault6 on Instagram</a>
   </footer>
 </main>
